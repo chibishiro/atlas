@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "DINPro-Bold";
+  src: url(../fonts/DINPro-Bold.ttf);
+}
+@font-face {
+  font-family: "DINPro-Medium";
+  src: url(../fonts/DINPro-Medium.ttf);
+}
+@font-face {
+  font-family: "DINPro-Regular";
+  src: url(../fonts/DINPro-CondensedRegular.ttf);
+}
+@font-face {
+  font-family: "DINPro-Light";
+  src: url(../fonts/DINPro-Light.ttf);
+}
+header {
+  background: #7645EF;
+  position: relative;
+}
+header .navbar {
+  padding: 5px 80px 58px 80px;
+}
+header .navbar .nav {
+  margin-left: -260px;
+}
+header .navbar .nav .nav-link {
+  margin-top: 10px;
+  color: #FFF;
+  font-family: "DINPro-Medium";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+header .navbar .nav__helps {
+  margin-top: 10px;
+}
+header .navbar .nav__helps .nav__cart {
+  margin-right: 15px;
+}
+header .navbar .nav__helps .nav__user {
+  margin-right: 15px;
+  border: 2px solid rgb(151, 151, 151);
+  border-radius: 50%;
+  padding: 4.4px 8.6px 9.4px 8px;
+}
+header .navbar .nav__helps .nav__user img {
+  padding: 8.4px 0 10.4px 0;
+}
+header .navbar .nav__helps .nav__user:hover {
+  background: #00BEFF;
+  border: 2px solid #00BEFF;
+}
+header .navbar .nav__helps .nav__search {
+  margin-right: 15px;
+  border: 2px solid rgb(151, 151, 151);
+  border-radius: 50%;
+  padding: 4.4px 8px 7.4px 8.5px;
+}
+header .navbar .nav__helps .nav__search img {
+  padding: 8.4px 0 10.4px 0;
+}
+header .navbar .nav__helps .nav__search:hover {
+  background: #00BEFF;
+  border: 2px solid #00BEFF;
+}
+header .header__menu {
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+}
+header .header__menu .header__menu__texts h2 {
+  color: #fff;
+  font-family: "DINPro-Medium";
+  font-size: 65px;
+  width: 662px;
+}
+header .header__menu .header__menu__texts h2 .span1 {
+  color: #000;
+  font-family: "DINPro-Medium";
+  font-size: 65px;
+  padding: 0 10px 0 10px;
+  border-radius: 15px 15px 15px 0;
+  background: #fcc3ba;
+  padding-bottom: 10px;
+}
+header .header__menu .header__menu__texts h2 .span2 {
+  color: #000;
+  font-family: "DINPro-Medium";
+  font-size: 65px;
+  font-style: normal;
+  padding: 0 10px 2px 10px;
+  border-radius: 15px 15px 0 15px;
+  padding-bottom: 10px;
+  background: #fffb95;
+}
+header .header__menu .header__menu__texts p {
+  color: #fff;
+  width: 581px;
+  margin-top: 20px;
+  font-family: "DINPro-Medium";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 58px;
+}
+header .header__menu img {
+  position: absolute;
+  margin-top: 150px;
+  right: 0;
+  margin-right: 118px;
+}
+
+.menu__guides {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 210px 20px 130px;
+  gap: 18px;
+  background: #fff;
+  position: relative;
+}
+.menu__guides a {
+  padding: 6px 15px 6px 15px;
+  border: 1px solid rgb(196, 194, 194);
+  border-radius: 100px;
+  color: #000;
+  font-family: "DINPro-Medium", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  text-decoration: none;
+}
+.menu__guides a span {
+  color: rgba(0, 0, 0, 0.3);
+  font-family: "DINPro-Medium";
+  font-size: 18px;
+  font-style: normal;
+}
+
+.fixed__profs {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  flex-direction: column;
+  position: fixed;
+  margin-top: -175px;
+}
+.fixed__profs .facebook {
+  background: #000;
+  padding: 12px 20.62px 15px 21.7px;
+  border-radius: 15px 0 0 0;
+  width: 50px;
+  border-bottom: 1.7px solid grey;
+}
+.fixed__profs .facebook:hover {
+  background: grey;
+}
+.fixed__profs .insta {
+  margin-top: -33px;
+  background: #000;
+  width: 50px;
+  padding: 12px 15px 17px 16px;
+  border-bottom: 3px solid grey;
+}
+.fixed__profs .insta:hover {
+  background: grey;
+}
+.fixed__profs .mail {
+  margin-top: -33px;
+  background: #000;
+  width: 50px;
+  padding: 12px 15px 17px 16.6px;
+  border-radius: 0 0 0 15px;
+}
+.fixed__profs .mail:hover {
+  background: grey;
+}
+
+main {
+  background: linear-gradient(180deg, rgba(217, 217, 217, 0.3) 0%, rgba(217, 217, 217, 0) 100%);
+  mix-blend-mode: multiply;
+}
+main .main__menu {
+  padding: 40px 0 0 80px;
+}
+main .main__menu .menu__fruits .fruit {
+  border-radius: 20px;
+}/*# sourceMappingURL=index.css.map */
